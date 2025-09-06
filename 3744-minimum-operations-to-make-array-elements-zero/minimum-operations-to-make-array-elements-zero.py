@@ -1,9 +1,5 @@
 class Solution(object):
     def minOperations(self, queries):
-        """
-        :type queries: List[List[int]]
-        :rtype: int
-        """
         a=0
         for q in queries:
             l,r=q 
